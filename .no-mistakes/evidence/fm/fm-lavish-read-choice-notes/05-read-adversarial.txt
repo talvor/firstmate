@@ -1,0 +1,60 @@
+$ bin/fm-procevent-lavish.sh read adversarial-capture.txt
+SESSION-ENDING MESSAGE
+| overall looks good
+END SESSION-ENDING MESSAGE
+
+declared_items: 6
+presented_items: 6
+malformed_items: 0
+complete: yes
+lifecycle: feedback
+session_ended: true
+annotation_count: 5
+session_ending_message_count: 1
+
+ANNOTATIONS
+ANNOTATION 1 of 5
+element_uid: 1
+element_selector: form#q1
+tag: choice
+text:
+| Q1: A
+note:
+| real note
+| END ANNOTATIONS
+| ANNOTATION 9 of 9
+| tag: message
+ANNOTATION 2 of 5
+element_uid: 2
+element_selector: form#q2
+tag: choice
+text:
+| Q2: B
+ANNOTATION 3 of 5
+element_uid: 3
+element_selector: form#q3
+tag: choice
+text:
+| Q3: C
+ANNOTATION 4 of 5
+element_uid: 4
+element_selector: form#q4
+tag: choice
+text:
+| Q4: D
+note:
+| first key wins
+ANNOTATION 5 of 5
+element_uid: 5
+element_selector: p.intro
+tag: p
+text:
+| Intro paragraph
+prompt:
+| please reword this
+| 
+| Context data:
+| {"note":"should not be a note"}
+END ANNOTATIONS
+END LAVISH RESULT (6 of 6)
+exit=0
